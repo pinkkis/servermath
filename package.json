@@ -1,0 +1,16 @@
+{
+  "name": "servermath",
+  "version": "0.1.0",
+  "description": "node.js math classes for multiplayer server code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pinkkis/servermath.git"
+  },
+  "keywords": ["node.js", "math", "vector", "matrix"],
+  "author": "Kristian Koivisto-Kokko <pinkkis@gmail.com> (http://pinkkis.com/)",
+  "license": "MIT"
+}
