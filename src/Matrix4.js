@@ -37,7 +37,8 @@ class Matrix4 {
 	}
 
 	clone() {
-		return new Matrix4().fromArray(this.elements);
+		let clone = Object.create(this);
+		return clone.fromArray(this.elements);
 	}
 
 	copy(m) {

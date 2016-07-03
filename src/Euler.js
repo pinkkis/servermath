@@ -64,7 +64,8 @@ class Euler {
 	}
 
 	clone() {
-		return new Euler(this._x, this._y, this._z, this._order);
+		let clone = Object.create(this);
+		return clone.copy(this);
 	}
 
 	copy(euler) {

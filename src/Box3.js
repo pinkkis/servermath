@@ -103,7 +103,8 @@ class Box3 {
 	}
 
 	clone() {
-		return new this.constructor().copy(this);
+		let clone = Object.create(this);
+		return clone.copy(this);
 	}
 
 	copy(box) {
