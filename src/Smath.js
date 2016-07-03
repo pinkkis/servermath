@@ -1,6 +1,6 @@
 'use strict';
 
-const _math = {
+const Smath = {
 
 	DEG2RAD: Math.PI / 180,
 	RAD2DEG: 180 / Math.PI,
@@ -102,4 +102,4 @@ const _math = {
 	}
 };
 
-module.exports = _math;
+module.exports = Smath;

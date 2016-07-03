@@ -52,7 +52,7 @@ class Vector2 {
 		switch ( index ) {
 			case 0: this.x = value; break;
 			case 1: this.y = value; break;
-			default: throw new Error( `index '${index}'' is out of range` );
+			default: throw new Error( `index '${index}' is out of range` );
 		}
 	}
 
